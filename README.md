@@ -4,6 +4,12 @@
 
 Скрипт получает все видики из плейлиста и рандомизирует их прямо в плейлисте
 
+## Детали
+
+- У Youtube Data API есть [квота](https://developers.google.com/youtube/v3/getting-started#quota) в 10к юнитов в день
+- 1 запрос `playlistItems/update` стоит 50 юнитов - в день можно ~200 видосов зарандомить
+
+
 ## Сетап
 
 1. Создаем проект в Google Cloud Platform
@@ -34,7 +40,3 @@
 
 10. Скрипт должен начать грузить инфу о видиках и рандомизировать их
 
-## Детали
-
-- У Youtube Data API есть [квота](https://developers.google.com/youtube/v3/getting-started#quota) в 10к юнитов в день
-- 1 запрос `playlistItems/update` стоит 50 юнитов - в день можно ~200 видосов зарандомить
