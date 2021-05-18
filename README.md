@@ -33,3 +33,8 @@
    в `Enter the authorization code:` из пункта 7
 
 10. Скрипт должен начать грузить инфу о видиках и рандомизировать их
+
+## Детали
+
+- У Youtube Data API есть [квота](https://developers.google.com/youtube/v3/getting-started#quota) в 10к юнитов в день
+- 1 запрос `playlistItems/update` стоит 50 юнитов - в день можно ~200 видосов зарандомить
