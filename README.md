@@ -1,6 +1,6 @@
 # Рандомайзер Ютуб видосов
 
-Предыстория тут: https://potykion.github.io/dev/ideas/
+Предыстория тут: https://potykion.github.io/dev/ideas#yt-shuffle
 
 Скрипт получает все видики из плейлиста и рандомизирует их прямо в плейлисте
 
