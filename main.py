@@ -75,7 +75,7 @@ def reorder_playlist_items(youtube, playlist_items):
                 "id": playlist_item["id"],
                 "snippet": {
                     "playlistId": playlist_item["snippet"]["playlistId"],
-                    "position": random.randint(0, len(playlist_items)),
+                    "position": random.randint(0, len(playlist_items) - 1),
                     "resourceId": playlist_item["snippet"]["resourceId"]
                 }
             }
