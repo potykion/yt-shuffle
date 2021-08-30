@@ -4,6 +4,11 @@
 
 Скрипт получает все видики из плейлиста и рандомизирует их прямо в плейлисте
 
+## Apps Script
+
+- Спустя какое-то время скрипт перестал работать, выводится 403 ошибка
+- Я переписал [скрипт на Apps Script](https://github.com/potykion/yt-shuffle/blob/master/yt-shuffle.gs) и проблемы с кредами решились
+
 ## Детали
 
 - У Youtube Data API есть [квота](https://developers.google.com/youtube/v3/getting-started#quota) в 10к юнитов в день
